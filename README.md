@@ -1,6 +1,11 @@
-```diff
-Hi, I'm George.
-I'm a software developer
-I like to work with:
-+ 📖 C#, F#, JavaScript
+```csharp
+using System;
+
+namespace My
+{
+    public static class Name
+    {
+        public static Func<string> Is => () => "George.";
+    }
+}
 ```
