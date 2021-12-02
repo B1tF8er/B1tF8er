@@ -1,11 +1,10 @@
 ```csharp
 using System;
 
-namespace My
+namespace My;
+
+public static class Name
 {
-    public static class Name
-    {
-        public static Func<string> Is => () => "George.";
-    }
+	public static Func<string> Is => () => "George.";
 }
 ```
